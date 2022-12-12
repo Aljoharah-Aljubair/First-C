@@ -1,5 +1,10 @@
-#include <stdio.h>    
+#include <stdio.h>  
+int func(int);  
 int main(){     
-printf("Hello world"); 
+printf("4*2= %d",func(4) ); 
 return 0;   
 }  
+
+int func(int x){
+    return x*2;
+}
